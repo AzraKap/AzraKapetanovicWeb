@@ -1,0 +1,168 @@
+a {
+  font-family: 'Merriweather', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 4.375rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'PT Serif', serif;
+  font-size: 1.8rem;
+  color: #66BFBF;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+h3 {
+  font-family: 'PT Serif', serif;
+  color: #11999E;
+}
+
+hr {
+  border: dotted #D3D3D3 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 80px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+/*******************CLASS SELECTORS*****************/
+.bottom {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.bottom-cloud {
+  width: 200px;
+  position: absolute;
+  left: 200px;
+  bottom: 450px;
+}
+
+.btn {
+  box-shadow: 0 0 0 2px #9fb4f2;
+  background: linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+  background-color: #11cdd4;
+  border-radius: 10px;
+  border: 1px solid #11999e;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'PT Serif', serif;
+  font-size: 20px;
+  padding: 12px 37px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #11999e;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #11999e 5%, #11cdd4 100%);
+  background-color: #11999e;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.contactmessage {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.cv {
+  border-radius: 100%;
+  width: 200px;
+  height: auto;
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.middle {
+  margin: 80px 0;
+}
+
+.mountain {
+  width: 850px
+}
+
+.programmer {
+  font-weight: normal;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.psych {
+  width: 200px;
+  float: right;
+  margin-left: 35px;
+}
+
+.skill-row1 {
+  width: 50%;
+  margin: 100px auto 200px auto;
+  text-align: left;
+}
+
+.skill-row2 {
+  width: 50%;
+  margin: 250px auto 200px auto;
+  text-align: left;
+}
+.top {
+  background-color: #ecfbfc;
+  padding-top: 100px;
+  position: relative;
+}
+
+.top-cloud {
+  width: 250px;
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.web {
+  text-decoration: underline;
+}
+
+.webdev {
+  width: 200px;
+  float: left;
+  margin-right: 35px;
+}
